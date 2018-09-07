@@ -4,11 +4,11 @@
   "version": "1.2.0",
   "dependencies": {
     "html5up-stellar": "^1.0.0",
-    "font-awesome": "4.7.0",
-    "jquery": "3.3.1",
-    "jquery.scrollex": "0.2.1",
-    "jquery.scrolly": "1.0.0-dev",
-    "browser": "1.0",
-    "breakpoints": "1.0",
+    "font-awesome.css": "4.7.0",
+    "jquery.js": "3.3.1",
+    "jquery.scrollex.js": "0.2.1",
+    "jquery.scrolly.js": "1.0.0-dev",
+    "browser.js": "1.0",
+    "breakpoints.js": "1.0",
   }
 }
