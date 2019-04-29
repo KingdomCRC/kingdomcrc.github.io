@@ -1615,6 +1615,8 @@ address {
     margin: 0 0 1em 0; }
   address p {
     margin-left: 2em; }
+address a {
+	margin-left: 2em; }
   address.alt div {
     display: block;
     width: 3em;
