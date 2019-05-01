@@ -119,7 +119,7 @@
 		$('.scrolly').scrolly({
 			speed: 1000
 		});
-
+// My custom JS for YouTube and a scroll-to-top button
 })(jQuery);
 jQuery(function(){for(var a=document.querySelectorAll(".youtube"),d=0;d<a.length;d++){var c="https://img.youtube.com/vi/"+a[d].dataset.embed+"/maxresdefault.jpg",e=new Image;e.src=c;e.addEventListener("load",function(){a[d].appendChild(e)}());a[d].addEventListener("click",function(){var a=document.createElement("iframe");a.setAttribute("frameborder","0");a.setAttribute("allowfullscreen","");a.setAttribute("src","https://www.youtube.com/embed/"+this.dataset.embed+"?rel=0&showinfo=0&autoplay=1");this.innerHTML=
 "";this.appendChild(a)})}});var scrollTrigger=300,backToTop=function(){$(window).scrollTop()>scrollTrigger?$("#back-to-top").addClass("show").show():$("#back-to-top").removeClass("show").hide()};backToTop();$(window).scroll(function(){backToTop()});$("#back-to-top").click(function(a){a.preventDefault();$("html, body").animate({scrollTop:0},1E3)});$(function(){$("a.scrolltop").each(function(a,d){var c=$(this).attr("href");$(this).attr("hiddenhref",c);$(this).removeAttr("href")})});

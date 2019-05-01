@@ -81,11 +81,11 @@ html {
 
 body {
   background-color: #69306d;
-  background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #114b5f 15%, #1c2541 85%);
-  background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #114b5f 15%, #1c2541 85%);
-  background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #114b5f 15%, #1c2541 85%);
-  background-image: url("images/overlay.png"), -o-linear-gradient(45deg, #114b5f 15%, #1c2541 85%);
-  background-image: url("images/overlay.png"), linear-gradient(45deg, #114b5f 15%, #1c2541 85%); }
+  background-image: url("images/templates/overlay.png"), -moz-linear-gradient(45deg, #114b5f 15%, #1c2541 85%);
+  background-image: url("images/templates/overlay.png"), -webkit-linear-gradient(45deg, #114b5f 15%, #1c2541 85%);
+  background-image: url("images/templates/overlay.png"), -ms-linear-gradient(45deg, #114b5f 15%, #1c2541 85%);
+  background-image: url("images/templates/overlay.png"), -o-linear-gradient(45deg, #114b5f 15%, #1c2541 85%);
+  background-image: url("images/templates/overlay.png"), linear-gradient(45deg, #114b5f 15%, #1c2541 85%); }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
