@@ -1,9 +1,14 @@
 {
-    "name": "Kingdom CRC",
-    "description": "Rebuilding Lives",
-    "lang": "en",
-    "short_name": "CRC",
-    "start_url": "/index.html",
+    "name" : "Kingdom CRC",
+    "description" : "Rebuilding Lives",
+    "lang" : "English",
+    "short_name" : "CRC",
+    "start_url" : "https://kingdomcrc.org/index.html",
+    "theme_color" : "#0ab878",
+    "background_color" : "#ffffff",
+    "display" : "standalone",
+    "orientation" : "portrait",
+    "scope" : "./",
     "icons": [
         {
             "src": "/assets/favicon/android-chrome-192x192.png",
@@ -15,8 +20,5 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ],
-    "theme_color": "#0ab878",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    ]
 }
