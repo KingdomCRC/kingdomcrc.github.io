@@ -1,0 +1,63 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		transition:			0.2s
+	);
+
+// Size.
+	$size: (
+		border-radius:		8px,
+		border-radius-main:	0.25em,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				64em
+	);
+
+// Font.
+	$font: (
+		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				300,
+		weight-bold:		400,
+		letter-spacing:		-0.025em
+	);
+
+// Palette.
+// Accents https://coolors.co/540d6e-ee4266-ffd23f-3bceac-0ead69
+// Whites/Fonts https://coolors.co/fbfbf2-e5e6e4-cfd2cd-a6a2a2-847577
+// Full theme https://coolors.co/0ab878-1c2541-114b5f-fbfbf2-e5e6e4
+	$palette: (
+		bg:					#114b5f,
+		fg:					rgba(255,255,255,0.65),
+		fg-bold:			#fbfbf2,
+		fg-light:			rgba(255,255,255,0.5),
+		border:				rgba(255,255,255,0.35),
+		border-bg:			rgba(255,255,255,0.075),
+		border2:			rgba(255,255,255,0.75),
+		border2-bg:			rgba(255,255,255,0.2),
+
+		invert: (
+			bg:				#fbfbf2,
+			bg-alt:			#e5e6e4,
+			fg:				#636363,
+			fg-bold:		#636363,
+			fg-light:		rgba(99,99,99,0.25),
+			border:			#dddddd,
+			border-bg:		rgba(222,222,222,0.25),
+			border2:		#dddddd,
+			border2-bg:		rgba(222,222,222,0.5),
+		),
+
+		accent:				#e4fde1,
+		accent1:			#ffd23f,
+		accent2:			#540d6e,
+		accent3:			#f45b69,
+		accent4:			#0ead69,
+		accent5:			#3bceac,
+		bg1:				#114b5f,
+		bg2:				#1c2541
+	);
