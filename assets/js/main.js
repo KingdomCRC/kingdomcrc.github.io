@@ -121,7 +121,7 @@
     $('.scrolly').scrolly({
         speed: 1000
     });
-// My custom JS for YouTube and a scroll-to-top button
+    // My custom JS for YouTube and a scroll-to-top button
 })(jQuery);
 jQuery(function () {
     for (var a = document.querySelectorAll(".youtube"), d = 0; d < a.length; d++) {
